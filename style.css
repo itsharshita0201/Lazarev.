@@ -212,3 +212,245 @@ nav button svg {
     font-weight: 400;
     font-size: 1.1vw;
 }
+
+#page2-right {
+    height: 100%;
+    width: 50%;
+    /* background-color: #333; */
+}
+
+.right-elem {
+    position: relative;
+    /* background-color: red; */
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+    border-bottom: 1px solid #333;
+}
+
+.right-elem h2 {
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+.right-elem img {
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0;
+    position: absolute;
+    scale: 0;
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+    background-image: url(https://lazarev.kiev.ua/la24/reel-cover.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page3-center {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    flex-direction: column;
+}
+
+.page3-center .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.3vw;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.page3-center .icon i {
+    color: #000;
+    font-size: 2.8vw;
+
+}
+
+.page3-center h5 {
+    font-size: 0.8vw;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    padding: 12px 26px 10px 26px;
+    margin-top: 0.5vw;
+    font-weight: 700;
+    opacity: 0;
+    transition: all ease 0.5s;
+    transform: translateY(16%);
+    text-transform: uppercase;
+}
+
+.page3-center:hover h5 {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+#page3 video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    transform: scaleX(0.7) scaleY(0);
+    opacity: 0;
+    border-radius: 30px;
+    z-index: 99999;
+
+}
+
+.page4-content {
+    background-color: #fff;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.page4-cont1 {
+    margin-top: 20px;
+    background-color: #fff;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pg4-left {
+    width: 30vw;
+    height: 65vh;
+    background-color: #fff;
+}
+
+#pg4-left p {
+    margin-left: 30px;
+}
+
+#pg4-left p {
+    color: #111;
+    font-size: 2.4rem;
+    font-weight: 1000;
+    padding: 30px;
+
+}
+
+#pg4-right {
+    width: 50vw;
+    height: 65vh;
+    background-color: #fff;
+}
+
+.pg4-right-content {
+    margin: 20px;
+
+}
+
+.pg4-right-content h4 {
+    color: #b0adad;
+    font-weight: 400;
+}
+
+.pg4-right-content p {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #111;
+    font-size: 1.4rem;
+    font-weight: 540;
+}
+
+.page4-cont2 {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    background-color: #fff;
+}
+
+.pg4-box{
+    height:28vh;
+    width:20vw;
+    padding-left: 15px;
+    color:#111;
+    background-color: #ebebeb;
+}
+.pg4-box p{
+    padding-top:20px ;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    color:#111;
+    font-size:2.4rem;
+    font-weight: 540;
+}
+#page4 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 13vh;
+}
+
+.section {
+    width: 100%;
+    height: 72vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13vh 10vw;
+    padding-bottom: 0;
+}
+
+.sec-left {
+    height: 100%;
+    width: 25%;
+    padding-top: 3vh;
+    /* background-color: aqua; */
+    border-top: 2px solid #000;
+
+}
+
+.sec-left h2 {
+    font-size: 2.1vw;
+    font-weight: 500;
+    color: #000;
+}
+
+.sec-left p {
+    color: #000;
+    margin-top: 10vh;
+    font-size: 1.2vw;
+    /* width: 80%; */
+}
+
+.sec-right {
+    height: 100%;
+    width: 70%;
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.sec-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec-right video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity ease 0.1s;
+}
